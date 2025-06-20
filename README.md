@@ -27,7 +27,7 @@ graph TD
     C -->|Query| D[QA Agent w/ RAG]
     C -->|Summarize| E[Summarization Agent]
     C -->|Classify| F[Document Classifier Agent]
-    D --> G[Vector DB (e.g., FAISS/Weaviate)]
+    D --> G[Vector DB]
     G --> H[Top-k Chunks]
     H --> I[LLM Response]
     I --> J[Output to User]
