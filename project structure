@@ -1,0 +1,22 @@
+medicontextLLM/
+├── agents/
+│   ├── rag_agent.py
+│   ├── summarizer_agent.py
+│   └── classifier_agent.py
+├── data/
+│   └── sample_docs/
+├── ingestion/
+│   ├── loader.py
+│   ├── splitter.py
+│   └── embedder.py
+├── chains/
+│   └── rag_chain.py
+├── vectorstore/
+│   └── faiss_index/
+├── ui/
+│   └── app.py  # Streamlit or FastAPI interface
+├── utils/
+│   └── config.py
+├── main.py
+├── requirements.txt
+└── README.md
