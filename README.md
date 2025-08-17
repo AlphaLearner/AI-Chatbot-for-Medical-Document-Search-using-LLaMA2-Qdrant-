@@ -1,4 +1,4 @@
-# 🧠 MediContextLLM
+# 🧠 AI Chatbot for Medical Document Search using LLaMA2 & Qdrant 
 
 > A context-aware, intelligent LLM-powered agent for extracting, retrieving, and reasoning over medical data.
 
